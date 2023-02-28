@@ -7,5 +7,7 @@ public class ElectricCar extends VehicleType {
         super(brand, colour, price);
     }
 
+    public void buy(double priceOfThingToBeBought){
 
+    }
 }

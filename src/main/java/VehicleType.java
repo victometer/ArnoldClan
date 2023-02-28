@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public abstract class VehicleType {
+public abstract class VehicleType implements Buyable {
 
     private String brand;
     private String colour;
@@ -22,6 +22,8 @@ public abstract class VehicleType {
     }
 
     public double getPrice() {
-        return price;
+        return this.price;
     }
+
+
 }

@@ -1,4 +1,4 @@
-public abstract class Part {
+public abstract class Part implements Buyable {
 
     private String modelNo;
     private double price;
