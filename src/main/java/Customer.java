@@ -5,21 +5,21 @@ public class Customer {
 
     private String name;
     private double cash;
-    private ArrayList<Buyable> stuffBought;
+    private ArrayList<Buyable> carsAndParts;
 
     public Customer(String name, double cash){
         this.name = name;
         this.cash = cash;
-        this.stuffBought = new ArrayList<>();
+        this.carsAndParts = new ArrayList<>();
     }
 
     public void addItem(Buyable item){
-        stuffBought.add(item);
+        carsAndParts.add(item);
     }
 
 
-    public int getAmountOfCars() {
-        return stuffBought.size();
+    public int getAmountOfItemsBought() {
+        return carsAndParts.size();
     }
 
     public double getCash(){
